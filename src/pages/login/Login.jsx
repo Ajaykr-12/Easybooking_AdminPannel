@@ -52,6 +52,7 @@ function Login() {
           <button disabled={loading} onClick={handleClick} className="lButton">
             Login
           </button>
+          {error && <p style={{ textAlign: "center" }}>{error.message}</p>}
         </div>
       </div>
     </div>
