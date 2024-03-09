@@ -1,0 +1,48 @@
+.home{
+    display: flex;
+    .Container{
+        flex: 6;
+
+        .widgets, .charts {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .charts{
+            padding: 5px 20px;
+        }
+
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            text-align: center;
+            color: #4115e0;
+        }
+
+        .listContainer{
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            gap: 30px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: x-large;
+
+            .icon{
+                color: #5b35e6;
+            }
+            .users, .rooms, .hotels{
+                display: flex;
+                gap: 5px;
+                align-items: center;
+                width: max-content;
+                cursor: pointer;
+            }
+        }
+    }
+    
+}
